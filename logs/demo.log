@@ -1,0 +1,2449 @@
+[2011-11-10 12:02:28][firefox][65.61.200.106] -- SELECT uid, level, username, password, firstname, lastname, email, description, createdby, created, updatedby, updated FROM admin_users WHERE level = 5 order by uid desc  limit  0,30
+[2011-11-10 12:02:35][firefox][65.61.200.106] -- SELECT uid, level, username, password, firstname, lastname, email, description, createdby, created, updatedby, updated FROM admin_users WHERE level = 5 order by uid desc  limit  0,30
+[2011-11-10 12:12:29][firefox][65.61.200.106] -- SELECT division, name, site_id, description, active, createdby, created, updatedby, updated FROM divisions order by division desc  limit  0,30
+[2011-11-10 12:12:46][firefox][65.61.200.106] -- SELECT aid, username, keyword, action, date FROM actions order by aid desc  limit  0,30
+[2011-11-10 12:12:50][firefox][65.61.200.106] -- SELECT uid, ip, browser, username, session, count, login_time, logout, logout_time, expired FROM login_info order by uid desc  limit  0,30
+[2011-11-10 17:49:45][firefox][65.61.200.106] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-10 17:50:11][firefox][65.61.200.106] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-10 18:03:07][firefox][65.61.200.106] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-11 12:12:37][firefox][65.61.200.106] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-11 12:17:04][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides home
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <p>test html carusel</p>
+    [site_id] => 3
+    [sname] => 
+    [mid] => 24
+    [mname] => 
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-11 12:17:04
+)
+
+[2011-11-11 12:17:08][firefox][78.97.130.50] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-11 12:28:42][firefox][78.97.130.50] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-11 12:31:33][firefox][65.61.200.106] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-11 12:34:22][firefox][65.61.200.106] -- MDB2 Error: syntax error line: [480]SELECT m.mid, m.name, m.description, p.name FROM modules m 
+		LEFT JOIN pages_modules pm ON (pm.mid = m.mid)
+		LEFT JOIN pages p ON (p.pid = pm.pid) 
+		WHERE m.active='Y' and m.site_id= ORDER BY m.name
+[2011-11-11 13:34:42][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides home
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <h1>test html carusel</h1>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-11 13:34:42
+)
+
+[2011-11-11 13:51:04][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides home
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-11 13:51:03
+)
+
+[2011-11-11 17:00:54][firefox][65.61.200.106] -- SELECT * FROM resources r WHERE 1=1  AND r.site_id = 3 ORDER BY rid DESC  limit  0,30
+[2011-11-11 17:01:15][chrome][65.61.200.106] -- SELECT ct.cid, ct.weight, 
+			(SELECT name FROM sites WHERE sites.site_id=ct.site_id) as site_id,
+			cp.name AS page,
+			(select name from modules where modules.mid=ct.mid) as mid,
+			ct.linkname, ct.title,ct.notes,ct.content, ct.division,ct.createdby, ct.created, ct.updatedby, ct.updated
+			FROM contents AS ct
+			INNER JOIN pages AS cp
+			INNER JOIN pages_modules AS pm
+			ON cp.pid = pm.pid
+			AND ct.mid = pm.mid  UNION
+			SELECT ct.cid, ct.weight,
+			(SELECT name FROM sites WHERE sites.site_id=ct.site_id) as site_id,
+			 '' AS page,
+			(SELECT name FROM modules WHERE modules.mid=ct.mid) as mid,
+			ct.linkname, ct.title,ct.notes,ct.content, ct.division,ct.createdby, ct.created, ct.updatedby, ct.updated
+			FROM contents AS ct
+			WHERE ct.mid NOT IN (SELECT mid from pages_modules)  ORDER BY cid desc limit  0,30
+[2011-11-12 09:50:00][firefox][78.97.130.50] -- Array
+(
+    [cid] => 122
+    [linkname] => Home Logo and Title
+    [title] => Home Logo and Title
+    [notes] => Home Logo and Title
+    [content] => 
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-21 19:04:18
+    [updatedby] => Admin
+    [updated] => 2011-11-12 09:50:00
+)
+
+[2011-11-12 10:05:18][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="images/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:05:18
+)
+
+[2011-11-12 10:18:06][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:18:06
+)
+
+[2011-11-12 10:25:45][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="../resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:18:06
+)
+
+[2011-11-12 10:27:32][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="sales/resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="sales/resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:27:32
+)
+
+[2011-11-12 10:29:27][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="images/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:29:27
+)
+
+[2011-11-12 10:32:16][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:32:16
+)
+
+[2011-11-12 10:34:17][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:32:16
+)
+
+[2011-11-12 10:35:10][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:32:16
+)
+
+[2011-11-12 10:36:17][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:32:16
+)
+
+[2011-11-12 10:36:37][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<span>rnhqifjker</span>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:36:37
+)
+
+[2011-11-12 10:36:56][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured"><span>rnhqifjker</span><img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:36:56
+)
+
+[2011-11-12 10:37:12][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured">
+<div>rnhqifjker</div>
+<img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:37:12
+)
+
+[2011-11-12 10:37:35][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">rnhqifjker</div>
+<img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:37:35
+)
+
+[2011-11-12 10:38:07][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured"><img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:38:07
+)
+
+[2011-11-12 10:39:03][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:39:03
+)
+
+[2011-11-12 10:45:36][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured2.png" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured3.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured4.png" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-12 10:39:03
+)
+
+[2011-11-13 05:04:33][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<p><strong>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</strong></p>
+<h2>Comprehensive Coverage</h2>
+<p><strong>Dental, vision, extended health care</strong></p>
+<p>&nbsp;</p>
+<table class="2col-table" style="width: 648px;" border="0" width="808" height="132">
+<tbody>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care</span></td>
+<td><span style="font-size: small;"><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Vision care</span></td>
+<td style="border-right: none;"><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Extended health care</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Life and dependent life insurance</span></td>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Emergency Travel Assistance</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Accidental death &amp; dismemberment</span></td>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Employee Assistance Program</span></td>
+</tr>
+</tbody>
+</table>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:04:33
+)
+
+[2011-11-13 05:15:48][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<p>&nbsp;</p>
+<table class="2col-table" style="width: 648px;" border="0" width="808" height="132">
+<tbody>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care</span></td>
+<td><span style="font-size: small;"><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Vision care</span></td>
+<td style="border-right: none;"><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Extended health care</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Life and dependent life insurance</span></td>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Emergency Travel Assistance</span></td>
+</tr>
+<tr>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Accidental death &amp; dismemberment</span></td>
+<td><span style="font-size: small;"><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> </span><span style="font-size: small;">Employee Assistance Program</span></td>
+</tr>
+</tbody>
+</table>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:15:48
+)
+
+[2011-11-13 05:42:56][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<p>&nbsp;</p>
+<ul>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:42:56
+)
+
+[2011-11-13 05:42:57][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<p>&nbsp;</p>
+<ul>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:42:56
+)
+
+[2011-11-13 05:44:00][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<p>&nbsp;</p>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:44:00
+)
+
+[2011-11-13 05:45:46][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/accept.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:45:46
+)
+
+[2011-11-13 05:53:03][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/accept.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 05:53:03
+)
+
+[2011-11-13 08:37:40][firefox][78.97.130.50] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Admin
+    [updated] => 2011-11-13 08:37:40
+)
+
+[2011-11-13 08:46:12][firefox][78.97.130.50] -- Array
+(
+    [cid] => 105
+    [linkname] => Home - Home
+    [title] => Home - Home
+    [notes] => Home - Home
+    [content] => <div class="content-box">
+<h2>Forms to Download</h2>
+<p>To submit health and dental claims to<strong>Great-West Life</strong>, click below to find the appropriate claim form. 1111</p>
+<br /> <a class="bLink2" href="#">read more</a></div>
+<div class="content-box">
+<h2>FAQs</h2>
+<ul class="blockList" style="margin: 15px 0px 0px; padding: 0px;">
+<li style="list-style-type: none; font-size: 12px; color: #3a3a3a; background-image: url(resources/arrow32.png); padding: 2px 0 2px 15px; margin-bottom: 5px; background-position: 0 6px; background-repeat: no-repeat;">What is my policy/contract number?</li>
+<li style="list-style-type: none; font-size: 12px; color: #3a3a3a; background-image: url(resources/arrow32.png); padding: 2px 0 2px 15px; margin-bottom: 5px; background-position: 0 6px; background-repeat: no-repeat;">Who are my Eligible Dependents?</li>
+<li style="list-style-type: none; font-size: 12px; color: #3a3a3a; background-image: url(resources/arrow32.png); padding: 2px 0 2px 15px; margin-bottom: 5px; background-position: 0 6px; background-repeat: no-repeat;">How do I self-pay?</li>
+</ul>
+<a class="bLink2" href="#">learn more</a></div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 18:44:00
+    [updatedby] => Admin
+    [updated] => 2011-11-13 08:46:12
+)
+
+[2011-11-13 08:49:11][firefox][78.97.130.50] -- Array
+(
+    [cid] => 105
+    [linkname] => Home - Home
+    [title] => Home - Home
+    [notes] => Home - Home
+    [content] => <div class="content-box">
+<h2>Forms to Download</h2>
+<p>To submit health and dental claims to<strong>Great-West Life</strong>, click below to find the appropriate claim form. 1111</p>
+<a class="bLink2" href="#">read more</a></div>
+<div class="content-box">
+<h2>FAQs</h2>
+<ul class="blockList" style="margin: 15px 0px 0px; padding: 0px;">
+<li style="list-style-type: none; font-size: 12px; color: #3a3a3a; background-image: url(resources/arrow32.png); padding: 2px 0 2px 15px; margin-bottom: 5px; background-position: 0 6px; background-repeat: no-repeat;">What is my policy/contract number?</li>
+<li style="list-style-type: none; font-size: 12px; color: #3a3a3a; background-image: url(resources/arrow32.png); padding: 2px 0 2px 15px; margin-bottom: 5px; background-position: 0 6px; background-repeat: no-repeat;">Who are my Eligible Dependents?</li>
+<li style="list-style-type: none; font-size: 12px; color: #3a3a3a; background-image: url(resources/arrow32.png); padding: 2px 0 2px 15px; margin-bottom: 5px; background-position: 0 6px; background-repeat: no-repeat;">How do I self-pay?</li>
+</ul>
+<a class="bLink2" href="#">learn more</a></div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 18:44:00
+    [updatedby] => Admin
+    [updated] => 2011-11-13 08:49:11
+)
+
+[2011-11-14 11:32:57][chrome][65.61.200.106] -- Array
+(
+    [cid] => 121
+    [linkname] => our Service
+    [title] => our Service
+    [notes] => our Service
+    [content] => <h3>Introduction</h3>
+<p><strong>ABC Administrative Services Ltd. provides </strong>professional administration services to the employee benefits market and may serve both the corporate client market as well as the multi-employer market.</p>
+<h3>Drivers</h3>
+<p>As a Third Party Administrator (TPA), staff are challenged with providing accurate, relevant, and timely data to various groups within the delivery of employee pension and health benefits. &nbsp;Key member groups include:&nbsp;</p>
+<ol>
+<li><span style="font-size: medium; font-family: andale mono,times;">Plan members (both employee and employers depending on the environment)</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Insurance Carriers</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Banks providing custodial services</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Board of trustees</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Human resource departments</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Benefits consultants</span></li>
+</ol>
+<h3>Chalanges</h3>
+<p><img class="alignLeft" src="resources/sales/images.jpg" alt="test image" /></p>
+<p>The industry is seeing more pressures &nbsp;on benefits administrators to offer more value-driven services at lower costs. &nbsp;Value-driven member services include the ability for member-employees to see their benefits information in real-time with greater flexibility to make amendments to their personal information while member-employers are provided the facility to remit contributions and amend employee enrolment information.&nbsp;</p>
+<p>Significant enhancements or complete replacement of existing adminsitrative software systems must occur to meet this growing demand at the member services level. &nbsp;For many small to medium-sized administrative companies, these upgrade or replacement costs are too prohibitive. &nbsp;This will result in lost clientele over the long-run as these demands become standard requirements.&nbsp;</p>
+<p>Software vendors must demonstrate a specialized knowledge of the benefits industry &nbsp;and the ability to customize solutions around the complexities of plan design. Data indicates the small to medium-sized market for administration services companies are being under-served. &nbsp;As client bases become ever more geographically dispersed, the need for administrative companies to effectively reach out to members become ever more important. &nbsp;</p>
+<p>Implementation fees associated with enterprise-grade administration systems are costly and are generally targeted towards the large players in the marketplace. &nbsp;Furthermore, legacy systems typically can not meet the demand for these value-driven services. &nbsp;Replacing these systems can be too costly and not make sense from a capital investment standpoint. &nbsp;</p>
+<h3>Solution</h3>
+<p>PAMS platform offers a cost-effective solution for meeting the new demands for value-driven member services. &nbsp;PAMS seemlessly integrates with any legacy system with our powerful data integration module. &nbsp;Short implementation time led by our experienced benefits implementation specialists along with a feature-rich platform means administrative services companies can compete for business within every segment of the market. &nbsp;&nbsp;</p>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 36
+    [mname] => Our Service
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Test
+    [created] => 2011-10-19 18:09:17
+    [updatedby] => Admin
+    [updated] => 2011-11-14 11:32:57
+)
+
+[2011-11-14 11:33:00][chrome][65.61.200.106] -- Array
+(
+    [cid] => 121
+    [linkname] => our Service
+    [title] => our Service
+    [notes] => our Service
+    [content] => <h3>Introduction</h3>
+<p><strong>ABC Administrative Services Ltd. provides </strong>professional administration services to the employee benefits market and may serve both the corporate client market as well as the multi-employer market.</p>
+<h3>Drivers</h3>
+<p>As a Third Party Administrator (TPA), staff are challenged with providing accurate, relevant, and timely data to various groups within the delivery of employee pension and health benefits. &nbsp;Key member groups include:&nbsp;</p>
+<ol>
+<li><span style="font-size: medium; font-family: andale mono,times;">Plan members (both employee and employers depending on the environment)</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Insurance Carriers</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Banks providing custodial services</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Board of trustees</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Human resource departments</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Benefits consultants</span></li>
+</ol>
+<h3>Chalanges</h3>
+<p><img class="alignLeft" src="resources/sales/images.jpg" alt="test image" /></p>
+<p>The industry is seeing more pressures &nbsp;on benefits administrators to offer more value-driven services at lower costs. &nbsp;Value-driven member services include the ability for member-employees to see their benefits information in real-time with greater flexibility to make amendments to their personal information while member-employers are provided the facility to remit contributions and amend employee enrolment information.&nbsp;</p>
+<p>Significant enhancements or complete replacement of existing adminsitrative software systems must occur to meet this growing demand at the member services level. &nbsp;For many small to medium-sized administrative companies, these upgrade or replacement costs are too prohibitive. &nbsp;This will result in lost clientele over the long-run as these demands become standard requirements.&nbsp;</p>
+<p>Software vendors must demonstrate a specialized knowledge of the benefits industry &nbsp;and the ability to customize solutions around the complexities of plan design. Data indicates the small to medium-sized market for administration services companies are being under-served. &nbsp;As client bases become ever more geographically dispersed, the need for administrative companies to effectively reach out to members become ever more important. &nbsp;</p>
+<p>Implementation fees associated with enterprise-grade administration systems are costly and are generally targeted towards the large players in the marketplace. &nbsp;Furthermore, legacy systems typically can not meet the demand for these value-driven services. &nbsp;Replacing these systems can be too costly and not make sense from a capital investment standpoint. &nbsp;</p>
+<h3>Solution</h3>
+<p>PAMS platform offers a cost-effective solution for meeting the new demands for value-driven member services. &nbsp;PAMS seemlessly integrates with any legacy system with our powerful data integration module. &nbsp;Short implementation time led by our experienced benefits implementation specialists along with a feature-rich platform means administrative services companies can compete for business within every segment of the market. &nbsp;&nbsp;</p>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 36
+    [mname] => Our Service
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Test
+    [created] => 2011-10-19 18:09:17
+    [updatedby] => Admin
+    [updated] => 2011-11-14 11:32:57
+)
+
+[2011-11-14 11:33:22][chrome][65.61.200.106] -- Array
+(
+    [cid] => 121
+    [linkname] => our Service
+    [title] => our Service
+    [notes] => our Service
+    [content] => <h3>Introduction</h3>
+<p><strong>ABC Administrative Services Ltd. provides </strong>professional administration services to the employee benefits market and may serve both the corporate client market <strong>as well as the multi-employer marke</strong>t.</p>
+<h3>Drivers</h3>
+<p>As a Third Party Administrator (TPA), staff are challenged with providing accurate, relevant, and timely data to various groups within the delivery of employee pension and health benefits. &nbsp;Key member groups include:&nbsp;</p>
+<ol>
+<li><span style="font-size: medium; font-family: andale mono,times;">Plan members (both employee and employers depending on the environment)</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Insurance Carriers</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Banks providing custodial services</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Board of trustees</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Human resource departments</span> </li>
+<li><span style="font-size: medium; font-family: andale mono,times;">Benefits consultants</span></li>
+</ol>
+<h3>Chalanges</h3>
+<p><img class="alignLeft" src="resources/sales/images.jpg" alt="test image" /></p>
+<p>The industry is seeing more pressures &nbsp;on benefits administrators to offer more value-driven services at lower costs. &nbsp;Value-driven member services include the ability for member-employees to see their benefits information in real-time with greater flexibility to make amendments to their personal information while member-employers are provided the facility to remit contributions and amend employee enrolment information.&nbsp;</p>
+<p>Significant enhancements or complete replacement of existing adminsitrative software systems must occur to meet this growing demand at the member services level. &nbsp;For many small to medium-sized administrative companies, these upgrade or replacement costs are too prohibitive. &nbsp;This will result in lost clientele over the long-run as these demands become standard requirements.&nbsp;</p>
+<p>Software vendors must demonstrate a specialized knowledge of the benefits industry &nbsp;and the ability to customize solutions around the complexities of plan design. Data indicates the small to medium-sized market for administration services companies are being under-served. &nbsp;As client bases become ever more geographically dispersed, the need for administrative companies to effectively reach out to members become ever more important. &nbsp;</p>
+<p>Implementation fees associated with enterprise-grade administration systems are costly and are generally targeted towards the large players in the marketplace. &nbsp;Furthermore, legacy systems typically can not meet the demand for these value-driven services. &nbsp;Replacing these systems can be too costly and not make sense from a capital investment standpoint. &nbsp;</p>
+<h3>Solution</h3>
+<p>PAMS platform offers a cost-effective solution for meeting the new demands for value-driven member services. &nbsp;PAMS seemlessly integrates with any legacy system with our powerful data integration module. &nbsp;Short implementation time led by our experienced benefits implementation specialists along with a feature-rich platform means administrative services companies can compete for business within every segment of the market. &nbsp;&nbsp;</p>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 36
+    [mname] => Our Service
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Test
+    [created] => 2011-10-19 18:09:17
+    [updatedby] => Admin
+    [updated] => 2011-11-14 11:33:22
+)
+
+[2011-11-14 11:53:30][firefox][65.61.200.106] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> <strong>Extended health care </strong></li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Life <span style="text-decoration: underline;"><em><strong>and dependent li</strong></em></span>fe insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Sales
+    [updated] => 2011-11-14 11:53:30
+)
+
+[2011-11-14 11:54:21][firefox][65.61.200.106] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Sales
+    [updated] => 2011-11-14 11:54:21
+)
+
+[2011-11-14 11:54:30][firefox][65.61.200.106] -- Array
+(
+    [cid] => 100
+    [linkname] => Welcome to The Construction Industry's Benefit Plan!
+    [title] => Welcome to The Construction Industry's Benefit Plan!
+    [notes] => william added on 2011-10-18
+    [content] => <h1>Welcome to The Construction Industry's Benefit Plan!</h1>
+<h3>The premier benefit plan for the construction industry in British Columbia features an hourly premium of only $1.18 and full comprehensive family coverage.</h3>
+<h2>Comprehensive Coverage</h2>
+<h3>Dental, vision, extended health care</h3>
+<ul class="no-bullets">
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />&nbsp; Dental care </li>
+<li><img src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Long term disability insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Vision care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Extended health care </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Life and dependent life insurance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" /> Emergency Travel Assistance </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Accidental death &amp; dismemberment </li>
+<li><img title="arrow3.gif for home table list-quote" src="resources/sales/sidemenu-bullet.png" alt="arrow3.gif for home table list-quote" />Employee Assistance Program</li>
+</ul>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 1
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 14:20:47
+    [updatedby] => Sales
+    [updated] => 2011-11-14 11:54:21
+)
+
+[2011-11-15 16:19:37][firefox][65.61.200.106] -- Array
+(
+    [cid] => 112
+    [linkname] => My Coverage - 1
+    [title] => My Coverage - 1
+    [notes] => My Coverage - 1
+    [content] => <h1 style="margin-top: 0px; margin-right: 0px; margin-bottom: 22px; margin-left: 0px; font-size: 26px; font-weight: bold; color: #38687e; padding: 0px;">My Coverage</h1>
+<p>&nbsp;</p>
+<p><span class="dlbText1" style="font-size: 12px; color: #3a3a3a;">DOWNLOAD THE</span><br /> <a title="CIBP Booklet Standard v.3_1.pdf" href="resources/CIBP Booklet Standard v.3_1.pdf"><span class="dlbText2" style="font-size: 18px; font-weight: bold; color: #2e647e;">PLAN BOOKLET</span></a></p>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 30
+    [mname] => My Coverage
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-18 18:01:18
+    [updatedby] => Sales
+    [updated] => 2011-11-15 16:19:37
+)
+
+[2011-11-15 16:26:28][firefox][65.61.200.106] -- Array
+(
+    [cid] => 115
+    [linkname] => Member Downloads - 2
+    [title] => Member Downloads - 2
+    [notes] => Member Downloads - 2
+    [content] => <div class="blue-container-header">Forms</div>
+<div class="blue-container-inner" style="width: 619px;">
+<div id="nfBody">
+<div id="newslettersTab" class="listTabs">
+<ul class="formsList">
+<li><a title="claim_form_dental.pdf" href="resources/claim_form_dental.pdf">CIBP Dental Claim Form</a></li>
+<li><a title="claim_form_healthcare.pdf" href="resources/claim_form_healthcare.pdf">CIBP Healthcare Claim Form</a></li>
+<li><a title="claim_form_out_of_country.pdf" href="resources/claim_form_out_of_country.pdf">CIBP Out of Country Claim Form</a></li>
+<li><a title="over_age_declaration_form.pdf" href="resources/over_age_declaration_form.pdf">Over Age Declaration Form</a></li>
+<li><a title="Coordination of Benefits Form.pdf" href="resources/">Coordination of Benefits Form</a></li>
+</ul>
+</div>
+</div>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 32
+    [mname] => Downloads
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-18 18:10:44
+    [updatedby] => Sales
+    [updated] => 2011-11-15 16:26:28
+)
+
+[2011-11-15 16:44:56][firefox][65.61.200.106] -- Array
+(
+    [cid] => 115
+    [linkname] => Member Downloads - 2
+    [title] => Member Downloads - 2
+    [notes] => Member Downloads - 2
+    [content] => <div class="blue-container-header">Forms</div>
+<div class="blue-container-inner" style="width: 619px;">
+<div id="nfBody">
+<div id="newslettersTab" class="listTabs">
+<ul class="formsList">
+<li><a title="claim_form_dental.pdf" href="resources/claim_form_dental.pdf" target="_blank">CIBP Dental Claim Form</a></li>
+<li><a title="claim_form_healthcare.pdf" href="resources/claim_form_healthcare.pdf" target="_blank">CIBP Healthcare Claim Form</a></li>
+<li><a title="claim_form_out_of_country.pdf" href="resources/claim_form_out_of_country.pdf" target="_blank">CIBP Out of Country Claim Form</a></li>
+<li><a title="over_age_declaration_form.pdf" href="resources/over_age_declaration_form.pdf" target="_blank">Over Age Declaration Form</a></li>
+<li><a title="Coordination of Benefits Form.pdf" href="resources/Coordination of Benefits Form.pdf" target="_blank">Coordination of Benefits Form</a></li>
+</ul>
+</div>
+</div>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 32
+    [mname] => Downloads
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-18 18:10:44
+    [updatedby] => Sales
+    [updated] => 2011-11-15 16:44:56
+)
+
+[2011-11-15 16:49:56][firefox][65.61.200.106] -- Array
+(
+    [cid] => 106
+    [linkname] => Home - Form
+    [title] => Home - Form
+    [notes] => Home - Form
+    [content] => <h1 style="margin: 0px 0px 22px; font-size: 26px; font-weight: bold; color: #38687e; padding: 0px;">Forms for Download</h1>
+<p style="margin: 0px 0px 15px; font-size: 14px; color: #686868; padding: 0px;">To submit health and dental claims to Great-West Life, click on the appropriate claim form. You can enter the information using your computer, but then you must print and send your completed form, along with all necessary documentation and original receipts, to Great-West Life at the address shown on the form. Remember to keep copies of all receipts and the claims form for your records.</p>
+<p style="margin: 0px 0px 15px; font-size: 14px; color: #686868; padding: 0px;">To be eligible for reimbursement, health and dental claims for the past year must be received by Great-West Life no later than June 30 of the following year.</p>
+<div class="blue-container-header">Forms</div>
+<div class="blue-container-inner">
+<div id="nfBody">
+<div id="newslettersTab" class="listTabs">
+<ul class="formsList">
+<li><a title="claim_form_dental.pdf" href="resources/claim_form_dental.pdf" target="_blank">CIBP Dental Claim Form</a></li>
+<li><a title="claim_form_healthcare.pdf" href="resources/claim_form_healthcare.pdf" target="_blank">CIBP Healthcare Claim Form</a></li>
+<li><a title="claim_form_out_of_country.pdf" href="resources/claim_form_out_of_country.pdf" target="_blank">CIBP Out of Country Claim Form</a></li>
+<li><a title="over_age_declaration_form.pdf" href="resources/over_age_declaration_form.pdf" target="_blank">Over Age Declaration Form</a></li>
+<li><a title="Coordination of Benefits Form.pdf" href="resources/Coordination of Benefits Form.pdf" target="_blank">Coordination of Benefits Form</a></li>
+</ul>
+</div>
+</div>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 26
+    [mname] => Forms
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-10-17 19:03:17
+    [updatedby] => Sales
+    [updated] => 2011-11-15 16:49:56
+)
+
+[2011-11-16 13:07:33][firefox][78.97.130.50] -- Array
+(
+    [cid] => 141
+    [linkname] => slides
+    [title] => Homepage Slides
+    [notes] => none
+    [content] => <div id="home-featured">
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured01.jpg" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured02.jpg" alt="" /></div>
+<div class="right-featured">
+<h1>Professional Accounting Services</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get a Price Quote Now!</a> <span>&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured03.jpg" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut consectetur adipisicing elit, sed  enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+<div class="feaured-slide">
+<div class="left-featured">
+<div class="mask-featured">&nbsp;</div>
+<img src="resources/sales/featured04.jpg" alt="" /></div>
+<div class="right-featured">
+<h1>Welcome to PAMS</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+<div class="buttons">
+<div class="green-btn"><a href="#">Get started for Free</a> <span>&nbsp;</span></div>
+<div class="grey-btn"><a href="#">Try a demo</a> <span>&nbsp;</span></div>
+<em>NO PREPAY OR CREDIT CARD NEEDED</em></div>
+</div>
+</div>
+</div>
+<div id="featured-menu">
+<ul>
+<li> <img src="resources/sales/clock.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/calendar.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/contacts.png" alt="" /> <a>Schedule your tasks</a> </li>
+<li> <img src="resources/sales/earth.png" alt="" /> <a>Schedule your tasks</a> </li>
+</ul>
+</div>
+    [site_id] => 3
+    [sname] => Sales
+    [mid] => 24
+    [mname] => Home
+    [division] => 
+    [weight] => 255
+    [active] => Y
+    [createdby] => Admin
+    [created] => 2011-11-11 12:14:53
+    [updatedby] => Admin
+    [updated] => 2011-11-16 13:07:33
+)
+
+[2011-12-25 14:36:07][chrome][127.0.0.1] -- Array
+(
+    [cid] => 8
+    [linkname] => 港媒爆料：中国歼20比美国的F-35火力强了一倍
+    [title] => 港媒爆料：中国歼20比美国的F-35火力强了一倍
+    [notes] => 港媒爆料：中国歼20比美国的F-35火力强了一倍
+    [content] => <div id="postbody">
+<p>据香港《明报》报道，澳门军事专家日前表示，日本向美国购买F-35对中日军力平衡影响不大，因为中国歼-20服役后，无论是在质量上还是数量上都优势明显。</p>
+<p>日本短期内很难完成战机更新 歼-20先服役, aaaaa.</p>
+<p>据报道，澳门国际军事学会会长黄东指出，以数量计算，日本仅买40架，只能勉强应付小规模冲突，中国的歼-20则至少要制造200架，机队规模应远 胜 F-  35；以质量来说，歼-20的弹舱是隐形机中最大的，可携带8枚导弹，相对F-35仅能携4枚，火力强了一倍。黄东还表示，引入F-35虽可提升日本作战 力，但由于日本没有供货优先权，短期内很难完成主力战机更新。此外，随着战机升级，机场、地勤等都要改动配合，预计到2020年都无法最终完成更新，而届 时歼-20已经服役。</p>
+<p>F-35隐形性能稍佳 远程打击力不如歼-20</p>
+<p>但黄东也同时指出，在隐形性能方面，F-35比歼-20稍佳，若两机在百公里以上远距离相遇，F-35会抢先发现对方。但是，F-35未配备远程导弹，无法威胁歼-20； 相比之下，歼-20却配备了超远程空空导弹，可在发现敌方时派上用场。</p>
+</div>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 7
+    [mname] => Lucy Module
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2011-12-25 14:26:52
+    [updatedby] => Demo1
+    [updated] => 2011-12-25 14:35:43
+)
+
+[2011-12-25 14:43:34][chrome][127.0.0.1] -- Array
+(
+    [cid] => 8
+    [linkname] => 港媒爆料：中国歼20比美国的F-35火力强了一倍
+    [title] => 港媒爆料：中国歼20比美国的F-35火力强了一倍
+    [notes] => 港媒爆料：中国歼20比美国的F-35火力强了一倍
+    [content] => <div id="postbody">
+<p>据香港《明报》报道，澳门军事专家日前表示，日本向美国购买F-35对中日军力平衡影响不大，因为中国歼-20服役后，无论是在质量上还是数量上都优势明显。</p>
+<p>日本短期内很难完成战机更新 歼-20先服役, aaaaa.</p>
+<p><img src="resources/williamjiang/ad_Nov_28.gif" alt="" width="129" height="58" /></p>
+<p><a href="http://google.com"><img src="resources/williamjiang/vancouver2.jpg" alt="" /></a></p>
+<p>据报道，澳门国际军事学会会长黄东指出，以数量计算，日本仅买40架，只能勉强应付小规模冲突，中国的歼-20则至少要制造200架，机队规模应远 胜 F-  35；以质量来说，歼-20的弹舱是隐形机中最大的，可携带8枚导弹，相对F-35仅能携4枚，火力强了一倍。黄东还表示，引入F-35虽可提升日本作战 力，但由于日本没有供货优先权，短期内很难完成主力战机更新。此外，随着战机升级，机场、地勤等都要改动配合，预计到2020年都无法最终完成更新，而届 时歼-20已经服役。</p>
+<p>F-35隐形性能稍佳 远程打击力不如歼-20</p>
+<p>但黄东也同时指出，在隐形性能方面，F-35比歼-20稍佳，若两机在百公里以上远距离相遇，F-35会抢先发现对方。但是，F-35未配备远程导弹，无法威胁歼-20； 相比之下，歼-20却配备了超远程空空导弹，可在发现敌方时派上用场。</p>
+</div>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 7
+    [mname] => Lucy Module
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2011-12-25 14:26:52
+    [updatedby] => Demo1
+    [updated] => 2011-12-25 14:43:10
+)
+
+[2012-02-04 19:27:35][firefox][127.0.0.1] -- Array
+(
+    [cid] => 12
+    [linkname] => 教會歷史
+    [title] => 教會歷史
+    [notes] => 教會歷史
+    [content] => <h2>教會歷史</h2>
+<div class="wrapper"><img class="img-indent" src="images/2page-img1.jpg" alt="" />
+<h5>基督教宣道會（簡稱宣道會，英语：Christian and Missionary Alliance，简称： C&amp;MA）</h5>
+<p>基督教宣道會（簡稱宣道會，英语：Christian and Missionary Alliance，简称： C&amp;MA），是在美國成立的基督教差會，由宣信博士於1887年成立。意思是「基督徒與宣教士同盟」。宣道會總部設於美國Colorado Springs。於1888年開始，差遣傳教士到中国宣教。現活躍於美國、加拿大、中國、香港及台灣等地。信徒分佈於75個國家，會眾人數超過200萬。</p>
+<p>宣信於1887年在纽约组成基督徒联合会（the Christian Alliance）。两年之后，成立福音宣道联合会（the Evangelical Missionary Alliance），分别应付国内和海外的需要。1897年，两会合并成为基督教宣道会（Christian and Missionary Alliance，意即「信徒與宣教士齊心聯盟」），在還没有教会的地方作宣揚基督教義的工作。<br /> 宣信成立宣道會背後的動力是他宣揚福音的心志。起初，宣道會並非是要成為一個教派，而是作為一個有組織的「全球普傳福音」運動。正如宣信博士所願，今天，宣道會肩負著「全球普傳福音」運動的領導角色。</p>
+</div>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 4
+    [mname] => 联络我们
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-04 19:25:01
+    [updatedby] => Demo1
+    [updated] => 2012-02-04 19:27:11
+)
+
+[2012-02-04 20:54:10][firefox][127.0.0.1] -- Array
+(
+    [cid] => 18
+    [linkname] => 看一看 (Kevin Xu)
+    [title] => 看一看 (Kevin Xu)
+    [notes] => 看一看 - (Kevin Xu)
+    [content] => <p>上帝与美国</p>
+<p><span lang="EN-US"><a title="blocked::http://www.tudou.com/programs/view/N6dbt-mWaec/" href="http://www.tudou.com/programs/view/N6dbt-mWaec/" target="_blank">http://www.tudou.com/programs/view/N6dbt-mWaec/</a></span></p>
+<p>《江守道讲道集》</p>
+<p><span lang="EN-US"><a title="blocked::http://fyyy.tv/html/558.html" href="http://fyyy.tv/html/558.html" target="_blank">http://fyyy.tv/html/558.html</a></span></p>
+<p>我们研读圣经是体恤造物主的心意我们关注世界是热爱造物主的所为</p>
+<p>诗篇<span lang="EN-US">&nbsp;Psalms</span></p>
+<p><span lang="EN-US">11:3 [hgb]&nbsp;</span>根基若毁坏，义人还能作什么呢？<span lang="EN-US">&nbsp;</span></p>
+<p><span lang="EN-US">&nbsp;&nbsp;&nbsp; [kjv]&nbsp; If the foundations be destroyed, what can the righteous do?</span></p>
+<p><span lang="EN-US">&nbsp;&nbsp;&nbsp; [bbe]&nbsp; If the bases are broken down, what is the upright man to do?</span></p>
+<p>以赛亚书<span lang="EN-US">&nbsp;Isaiah</span></p>
+<p><span lang="EN-US">33:22 [hgb]&nbsp;</span>因为耶和华是审判我们的，耶和华是给我们设律法的，耶和华是我们的王。他必拯救我们。<span lang="EN-US">&nbsp;</span></p>
+<p><span lang="EN-US">&nbsp;&nbsp;&nbsp; [kjv]&nbsp; For the LORD is our judge, the LORD is our lawgiver, the LORD is our king; he will save us.</span></p>
+<p><span lang="EN-US">&nbsp;&nbsp;&nbsp; [bbe]&nbsp; For the Lord is our judge, the Lord is our law-giver, the Lord is our king; he will be our saviour.</span></p>
+<p>耶利米书<span lang="EN-US">&nbsp;Jeremiah</span></p>
+<p><span lang="EN-US">17:9 [hgb]&nbsp;</span>人心比万物都诡诈，坏到极处，谁能识透呢？<span lang="EN-US">&nbsp;</span></p>
+<p><span lang="EN-US">&nbsp;&nbsp;&nbsp; [kjv]&nbsp; The heart is deceitful above all things, and desperately wicked: who can know it?</span></p>
+<p><span lang="EN-US">&nbsp;&nbsp;&nbsp; [bbe]&nbsp; The heart is a twisted thing, not to be searched out by man: who is able to have knowledge of it?</span></p>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 8
+    [mname] => 讲经论道
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-04 20:11:02
+    [updatedby] => Demo1
+    [updated] => 2012-02-04 20:53:46
+)
+
+[2012-02-05 17:23:50][firefox][127.0.0.1] -- Array
+(
+    [cid] => 25
+    [linkname] => O Come All Ye Faithful by Celtic Woman
+    [title] => Admin
+    [notes] => O Come All Ye Faithful by Celtic Woman
+
+http://youtu.be/45VGDNHJ4Zo
+    [content] => <p>
+<object width="640" height="480" data="http://www.youtube.com/v/45VGDNHJ4Zo?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash">
+<param name="allowFullScreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="src" value="http://www.youtube.com/v/45VGDNHJ4Zo?version=3&amp;hl=en_US&amp;rel=0" />
+<param name="allowfullscreen" value="true" />
+</object>
+</p>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 12
+    [mname] => 福音歌曲
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-05 17:18:15
+    [updatedby] => Demo1
+    [updated] => 2012-02-05 17:23:26
+)
+
+[2012-02-05 17:37:41][firefox][127.0.0.1] -- Array
+(
+    [cid] => 26
+    [linkname] => Away In A Manger
+    [title] => Admin
+    [notes] => AWAY IN A MANGER
+    [content] => <p>
+<object width="640" height="480" data="http://www.youtube.com/v/vftEpuxUo1E?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash">
+<param name="allowFullScreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="src" value="http://www.youtube.com/v/vftEpuxUo1E?version=3&amp;hl=en_US&amp;rel=0" />
+<param name="allowfullscreen" value="true" />
+</object>
+</p>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 12
+    [mname] => 福音歌曲
+    [division] => 
+    [weight] => 0
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-05 17:35:16
+    [updatedby] => Demo1
+    [updated] => 2012-02-05 17:37:17
+)
+
+[2012-02-05 17:48:17][firefox][127.0.0.1] -- Array
+(
+    [cid] => 28
+    [linkname] => Introduction
+    [title] => Admin
+    [notes] => Introduction
+    [content] => <h4>分享能激励我们的福音歌曲。</h4>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 12
+    [mname] => 福音歌曲
+    [division] => 
+    [weight] => 254
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-05 17:46:35
+    [updatedby] => Demo1
+    [updated] => 2012-02-05 17:47:53
+)
+
+[2012-02-05 17:48:20][firefox][127.0.0.1] -- Array
+(
+    [cid] => 28
+    [linkname] => Introduction
+    [title] => Admin
+    [notes] => Introduction
+    [content] => <h4>分享能激励我们的福音歌曲。</h4>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 12
+    [mname] => 福音歌曲
+    [division] => 
+    [weight] => 254
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-05 17:46:35
+    [updatedby] => Demo1
+    [updated] => 2012-02-05 17:47:53
+)
+
+[2012-02-05 17:48:31][firefox][127.0.0.1] -- Array
+(
+    [cid] => 28
+    [linkname] => Introduction
+    [title] => Admin
+    [notes] => Introduction
+    [content] => <h3>分享能激励我们的福音歌曲。</h3>
+    [site_id] => 1
+    [sname] => williamjiang
+    [mid] => 12
+    [mname] => 福音歌曲
+    [division] => 
+    [weight] => 254
+    [active] => Y
+    [createdby] => Demo1
+    [created] => 2012-02-05 17:46:35
+    [updatedby] => Demo1
+    [updated] => 2012-02-05 17:48:07
+)
+
+[2012-02-14 01:43:28][firefox][207.6.38.43] -- Array
+(
+    [cid] => 10
+    [linkname] => 首页主题
+    [title] => 首页主题
+    [notes] => 首页主题
+    [content] => <div class="line-ver">
+<div class="top">
+<div class="wrapper bot">
+<div class="img-box"><a href="http://www.surreycac.com/en/index.php"><img class="png" src="images/pic1.png" alt="" /></a>2012 Church Theme:<br /> <br /> <strong>Happy to serve Lord</strong></div>
+<div class="img-box"><img class="png" src="images/pic2.png" alt="" /> 2012年教會主題:<br /> <br /> <strong>欢欢喜喜事奉主</strong></div>
+</div>
+</div>
+</div>
+    [site_id] => 1
+    [sname] => SurreyOneFamily
+    [mid] => 1
+    [mname] => 主页
+    [division] => 
+    [weight] => 254
+    [active] => Y
+    [createdby] => SurreyOneFamily
+    [created] => 2012-02-04 18:04:10
+    [updatedby] => OneFamily
+    [updated] => 2012-02-14 01:43:28
+)
+
+[2012-02-14 02:09:56][firefox][207.6.38.43] -- Array
+(
+    [cid] => 10
+    [linkname] => 首页主题
+    [title] => 首页主题
+    [notes] => 首页主题
+    [content] => <div class="line-ver">
+<div class="top">
+<div class="wrapper bot">
+<div class="img-box"><a href="http://www.surreycac.com/en/index.php"><img class="png" src="images/pic1.png" alt="" /></a>2012 Church Theme:<br /> <br /> <strong>Happy to serve Lord</strong></div>
+<div class="img-box"><img class="png" src="images/pic2.png" alt="" /> 2012年教會主題:<br /> <br /> <strong>欢欢喜喜事奉主</strong></div>
+</div>
+</div>
+</div>
+    [site_id] => 1
+    [sname] => SurreyOneFamily
+    [mid] => 1
+    [mname] => 主页
+    [division] => 
+    [weight] => 254
+    [active] => Y
+    [createdby] => SurreyOneFamily
+    [created] => 2012-02-04 18:04:10
+    [updatedby] => OneFamily
+    [updated] => 2012-02-14 01:43:28
+)
+
+[2012-02-14 02:12:01][firefox][207.6.38.43] -- Array
+(
+    [cid] => 10
+    [linkname] => 首页主题
+    [title] => 首页主题
+    [notes] => 首页主题
+    [content] => <div class="line-ver">
+<div class="top">
+<div class="wrapper bot">
+<div class="col-1">
+<div class="img-box"><a href="http://www.surreycac.com/en/index.php"><img class="png" src="images/pic1.png" alt="" /></a>2012 Church Theme:<br /> <br /> <strong>Happy to serve Lord</strong></div>
+</div>
+<div class="col-2">
+<div class="img-box"><img class="png" src="images/pic2.png" alt="" /> 2012年教會主題:<br /> <br /> <strong>欢欢喜喜事奉主</strong></div>
+</div>
+</div>
+</div>
+</div>
+    [site_id] => 1
+    [sname] => SurreyOneFamily
+    [mid] => 1
+    [mname] => 主页
+    [division] => 
+    [weight] => 254
+    [active] => Y
+    [createdby] => SurreyOneFamily
+    [created] => 2012-02-04 18:04:10
+    [updatedby] => OneFamily
+    [updated] => 2012-02-14 02:12:01
+)
+
