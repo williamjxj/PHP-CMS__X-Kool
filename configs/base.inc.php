@@ -47,8 +47,8 @@ class BaseClass extends Smarty
 			$dsn = array (
 				'phptype' => 'mysqli',
 				'username' => 'church',
-				'password' => 'Benjamin001!',
-				'hostspec' => 'williamjxj.ipowermysql.com',
+				'password' => 'mysql!',
+				'hostspec' => 'mysql.com',
 				'database' => 'church'
 			);
 		}  	
